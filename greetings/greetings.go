@@ -25,7 +25,7 @@ func randomFormat() string {
 
 func Hellos(names []string) (map[string]string, error) {
 	messages := make(map[string]string)
-	for _, name := range names {
+	for _, name := range names { // _ is the index, it basically enumerates (starting from 0)
 		message, err := Hello(name)
 		if err != nil {
 			return nil, err

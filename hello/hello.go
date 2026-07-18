@@ -18,7 +18,7 @@ func main() {
 	}
 	// messages example = map[Arman:Hi Arman. Welcome! Keshav:Hi Keshav. Welcome! Raghav:Hi Raghav. Welcome!]
 	for _, message := range messages {
-		fmt.Println(message) // This prints out the value, not the key (unlike python)
+		fmt.Println(message) // _ is the key, message is the value
 	}
 	
 }
