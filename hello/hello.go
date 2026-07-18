@@ -20,5 +20,4 @@ func main() {
 	for _, message := range messages {
 		fmt.Println(message) // _ is the key, message is the value
 	}
-	
 }
